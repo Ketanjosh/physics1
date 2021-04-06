@@ -38,6 +38,6 @@ function draw() {
 }
 function keyPressed(){
 	if(keyCode===UP_ARROW){
-		Matter.Body.applyForce(ballObj.body,ballObj.body.position,{x:80,y:-85});
+		Matter.Body.applyForce(ballObj.body,ballObj.body.position,{x:600,y:-600});
 	}
 }
